@@ -1,7 +1,7 @@
 # 🥊 BoxApp — E-Training Boxing Platform
 
 <p align="center">
-  <em>A full-stack MVP developed during an internship at <a href="https://boxygene.ch/">Boxygene</a> — an interactive audio & visual coaching platform that orchestrates high-intensity boxing sessions in real time.</em>
+  <em>A full-stack MVP developed during an internship at <a href="https://boxygene.ch/">Boxygène</a> — an interactive audio & visual coaching platform that orchestrates high-intensity boxing sessions in real time.</em>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 ---
 
 > **⚠️ Showcase Repository**
-> This repository documents the architecture, engineering decisions, and design process of a project developed during an internship at **[Boxygene](https://boxygene.ch/)** — a sports-tech startup building AI-driven training tools. The source code is maintained in a private repository to protect proprietary business logic and internal IP.
+> This repository documents the architecture, engineering decisions, and design process of a project developed during an internship at **[Boxygène](https://boxygene.ch/)** — a sports-tech startup building AI-driven training tools. The source code is maintained in a private repository to protect proprietary business logic and internal IP.
 
 ---
 
@@ -185,7 +185,7 @@ Any structural mismatch throws at the boundary, preventing silent runtime errors
 
 ## 🎨 Design System
 
-Built from scratch to match the **Boxygene brand identity** and the unique constraints of vertical TV displays.
+Built from scratch to match the **Boxygène brand identity** and the unique constraints of vertical TV displays.
 
 ### Color Palette
 
@@ -224,12 +224,12 @@ Dark surfaces use `backdrop-filter: blur(16px)` with translucent borders (`rgba(
 
 ## 🤝 My Role & Responsibilities
 
-**Role:** Fullstack Developer Intern at **[Boxygene](https://boxygene.ch/)**
+**Role:** Fullstack Developer Intern at **[Boxygène](https://boxygene.ch/)**
 
 I was responsible for the end-to-end development of the client-side platform, the authentication micro-service, and the integration layer. My work covered:
 
 - **Frontend Architecture & UI/UX Design** — End-to-end ownership of the React application: component architecture, routing, state management, custom hooks, and the complete visual identity optimized for vertical TV displays.
-- **Design System** — Designed and implemented the Boxygene-branded SCSS design system from scratch, including color tokens, typography, spacing, glassmorphism surfaces, and the CSS animation library.
+- **Design System** — Designed and implemented the Boxygène-branded SCSS design system from scratch, including color tokens, typography, spacing, glassmorphism surfaces, and the CSS animation library.
 - **Data Validation & Integration Layer** — Built the TypeScript + Zod validation pipeline and the Workout Mapper that translate AI-generated JSON into a stable, type-safe UI model.
 - **Micro-Backend (Authentication Service)** — Designed and implemented the Node.js/Express backend handling Google OAuth 2.0, session management with HTTP-only cookies, and workout history persistence via Prisma + SQLite.
 - **DevOps & Infrastructure** — Configured the multi-stage Docker builds, Nginx reverse proxy, and Docker Compose orchestration for local and production environments.
@@ -254,7 +254,7 @@ I was responsible for the end-to-end development of the client-side platform, th
 
 - **Git Strategy:** Feature-branch workflow — `feature/CORE-XX-description` → `develop` (integration) → `main` (stable releases)
 - **Commit Convention:** [Conventional Commits](https://www.conventionalcommits.org/) for semantic versioning and automated changelog readability
-- **Task Tracking:** JIRA-style task tracking with `CORE-XX` identifiers in branch names and commit messages
+- **Task Tracking:** Jira task tracking with `CORE-XX` identifiers in branch names and commit messages
 - **Code Quality:** ESLint with `eslint-plugin-react-hooks`, TypeScript strict mode, Zod for runtime safety
 
 ---
@@ -299,4 +299,4 @@ Feel free to reach out to discuss the architecture, request specific code snippe
 
 - **GitHub:** [@SamExperience](https://github.com/SamExperience)
 - **LinkedIn:** [Samuele Deriu](https://www.linkedin.com/in/samuelederiu)
-- **Company:** [Boxygene — boxygene.ch](https://boxygene.ch/)
+- **Company:** [Boxygène — boxygene.ch](https://boxygene.ch/)
